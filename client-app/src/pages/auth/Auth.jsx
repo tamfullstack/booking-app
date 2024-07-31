@@ -22,6 +22,10 @@ export default function Auth() {
     if (token || (mode !== "login" && mode !== "register")) {
       navigate("/");
     }
+
+    emailRef.current.value = "";
+    passwordRef.current.value = "";
+    setError("");
   }, [token, mode, navigate]);
 
   const isLogin = mode === "login";
