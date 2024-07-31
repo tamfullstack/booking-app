@@ -1,0 +1,12 @@
+.footer-col {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-col-item {
+  margin-bottom: 10px;
+}
+
+.footer-col-item a {
+  text-decoration: none;
+}

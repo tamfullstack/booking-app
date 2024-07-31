@@ -1,0 +1,131 @@
+:root {
+  --primary-color: rgb(103, 57, 255);
+  --title-color: rgb(180, 195, 219);
+}
+
+.app-btn {
+  background-color: rgb(0, 128, 128);
+  color: white;
+  border: none;
+  padding: 10px;
+  min-width: 150px;
+}
+
+.app-add-btn {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.app-delete-btn {
+  background-color: white;
+  color: red;
+  border: 1px dashed red;
+  border-radius: 5px;
+}
+
+.app-edit-btn {
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-title {
+  color: var(--title-color);
+}
+
+.app-box-shadow {
+  box-shadow: 1px 3px 5px #8b8b8b;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+table tr {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+/* Payment Status */
+
+.status {
+  color: rgb(28, 129, 9);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.booked {
+  background-color: #f69685;
+}
+
+/* Form */
+.form {
+  padding: 10px 40px;
+  margin: 20px 0;
+}
+
+.form-header {
+  padding: 10px;
+}
+
+.form-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 200px;
+}
+
+.form-list.row-3-col {
+  grid-template-columns: 2fr 2fr 1fr;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-input-text {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 5px;
+  color: gray;
+}
+
+.room-select {
+  border: 1px solid black;
+  max-height: 120px;
+  overflow-y: scroll;
+}
+
+.room-option {
+  padding: 0 10px;
+}
+
+.room-option:hover {
+  background-color: gray;
+  color: white;
+}
+
+.room-option.selected {
+  background-color: blue;
+  color: white;
+}

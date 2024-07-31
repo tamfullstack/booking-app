@@ -1,0 +1,29 @@
+.auth {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-error {
+  color: red;
+  margin: 15px;
+}
+
+.auth-form {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+
+.auth-form-input {
+  height: 30px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.auth-form-btn {
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: bold;
+}

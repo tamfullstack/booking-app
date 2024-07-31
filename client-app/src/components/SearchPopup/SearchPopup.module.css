@@ -1,0 +1,62 @@
+.search-popup {
+  background-color: #febb02;
+  color: #86624f;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-popup h5 {
+  margin: 10px 0 5px;
+}
+
+.input-destination,
+.input-check-in-date .button {
+  padding: 5px;
+  height: 30px;
+}
+
+.input-destination {
+  width: calc(100% - 10px);
+  border: none;
+}
+
+.input-check-in-date {
+  position: relative;
+}
+
+.input-check-in-date .button {
+  background-color: #fff;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.input-check-in-date .modal {
+  position: absolute;
+}
+
+.option {
+  padding: 15px;
+}
+
+.option .item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.option .item {
+  font-size: 13px;
+}
+
+.option .item span {
+  font-size: 12px;
+}
+
+.option .item input {
+  width: 50px;
+}
+
+.search-submit {
+  width: 100%;
+  margin-top: 10px;
+}

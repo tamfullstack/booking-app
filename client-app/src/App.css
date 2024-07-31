@@ -1,0 +1,26 @@
+.bg-dark {
+  background-color: #003580;
+}
+
+.text-light {
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background-color: #0071c2;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.rate-value {
+  background-color: #003580;
+  color: #fff;
+  padding: 5px;
+}

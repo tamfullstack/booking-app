@@ -1,0 +1,73 @@
+.search-item {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 3fr 6fr 3fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.search-item .content {
+  padding: 5px 0;
+}
+
+.search-item .content .name {
+  color: #1874c3;
+}
+
+.search-item .content > div {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.search-item .content .tag span {
+  background-color: #008009;
+  color: #fff;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.search-item .content .description {
+  font-weight: bold;
+}
+
+.search-item .content .free-cancel {
+  color: #008009;
+}
+
+.search-item .content .free-cancel .title {
+  font-weight: bold;
+}
+
+.search-item .numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.search-item .numbers .rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-item .numbers .price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.search-item .numbers .price h2 {
+  font-weight: normal;
+}
+
+.search-item .numbers .price p {
+  font-size: 13px;
+  padding: 5px 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search-item .numbers .price button {
+  width: 100%;
+  border-radius: 5px;
+}

@@ -1,0 +1,87 @@
+.header {
+  padding: 30px 0 30px;
+  position: relative;
+}
+
+.header .title,
+.header .subtitle {
+  margin-bottom: 20px;
+}
+
+.header .sign {
+  margin-bottom: 60px;
+}
+
+.header .search-form {
+  color: #d3d3d3;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  border: #febb02 3px solid;
+  border-radius: 5px;
+}
+
+.header .search-form .item {
+  position: relative;
+}
+
+.header .search-form .item .item-btn {
+  cursor: pointer;
+}
+
+.header .search-form .item i {
+  margin-right: 10px;
+}
+
+.header .search-form .item .item-modal {
+  position: absolute;
+  top: 35px;
+}
+
+.date-option {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: #f0f0f0;
+  margin-bottom: -20px;
+}
+
+.date-btn {
+  border: none;
+  padding: 10px;
+  width: 45%;
+  background-color: #fff;
+}
+
+.date-btn.active {
+  border: 1px solid blue;
+}
+
+/* Count Modal */
+.count-modal {
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.count-modal-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.count-modal-input label {
+  margin-right: 40px;
+}
+
+.count-modal-input input {
+  width: 40px;
+}

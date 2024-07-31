@@ -1,0 +1,42 @@
+.navbar-lists,
+.navbar-list {
+  padding: 0;
+}
+
+.navbar-lists-item,
+.navbar-item {
+  list-style-type: none;
+}
+
+.navbar-lists-item {
+  margin-bottom: 20px;
+}
+
+.navbar-lists-title {
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.navbar-item {
+  margin: 5px 0;
+}
+
+.navbar-item a,
+.navbar-item .logout-btn {
+  display: flex;
+}
+
+.navbar-item .logout-btn {
+  cursor: pointer;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-item-icon {
+  color: var(--primary-color);
+  width: 40px;
+  text-align: center;
+}

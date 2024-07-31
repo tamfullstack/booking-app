@@ -1,0 +1,13 @@
+.hotel-item h4,
+.hotel-item p {
+  margin-top: 10px;
+}
+
+.hotel-item .name {
+  text-decoration: underline;
+  color: #641a8b;
+}
+
+.hotel-item .city {
+  font-weight: normal;
+}

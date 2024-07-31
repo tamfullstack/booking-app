@@ -1,0 +1,77 @@
+.detail {
+  padding: 50px 0;
+}
+
+.detail .info {
+  position: relative;
+}
+
+.detail .info > p {
+  margin-top: 10px;
+}
+
+.detail .info .address i {
+  margin-right: 10px;
+}
+
+.detail .info .address span {
+  font-size: 13px;
+}
+
+.detail .info .distance {
+  color: #548ec8;
+}
+
+.detail .info .price {
+  color: #0e8109;
+}
+
+.detail .info .photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.detail button {
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.detail .info button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.detail .more {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.detail .more .description .content {
+  margin-top: 20px;
+}
+
+.detail .more .submit {
+  padding: 20px;
+  background-color: #ebf3ff;
+}
+
+.detail .more .submit .title,
+.detail .more .submit .content,
+.detail .more .submit .price {
+  margin-bottom: 15px;
+}
+
+.detail .more .submit .price span {
+  font-weight: normal;
+}
+
+.detail .more .submit button {
+  width: 100%;
+}
